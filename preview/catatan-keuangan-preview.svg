@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="860" viewBox="0 0 420 860">
+  <rect width="420" height="860" fill="#e7e7df"/>
+  <rect x="26" y="18" width="368" height="824" rx="30" fill="#111"/>
+  <rect x="42" y="46" width="336" height="768" rx="18" fill="#f7f7f2"/>
+  <text x="62" y="92" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#19231f">Catatan Keuangan</text>
+  <text x="62" y="122" font-family="Arial, sans-serif" font-size="14" fill="#5c6560">Belum sinkron</text>
+
+  <rect x="62" y="146" width="296" height="128" rx="8" fill="#ffffff"/>
+  <text x="80" y="181" font-family="Arial, sans-serif" font-size="18" fill="#19231f">Saldo: Rp1.150.000,00</text>
+  <text x="80" y="219" font-family="Arial, sans-serif" font-size="18" fill="#19231f">Pemasukan: Rp1.500.000,00</text>
+  <text x="80" y="257" font-family="Arial, sans-serif" font-size="18" fill="#19231f">Pengeluaran: Rp350.000,00</text>
+
+  <rect x="62" y="298" width="296" height="270" rx="8" fill="#ffffff"/>
+  <text x="80" y="333" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#19231f">Tambah Catatan</text>
+  <circle cx="88" cy="366" r="9" fill="#1f7a5a"/>
+  <circle cx="88" cy="366" r="4" fill="#ffffff"/>
+  <text x="105" y="371" font-family="Arial, sans-serif" font-size="15" fill="#19231f">Pengeluaran</text>
+  <circle cx="205" cy="366" r="9" fill="#ffffff" stroke="#8c9690" stroke-width="2"/>
+  <text x="222" y="371" font-family="Arial, sans-serif" font-size="15" fill="#19231f">Pemasukan</text>
+
+  <rect x="80" y="392" width="260" height="42" rx="5" fill="#fbfbf8" stroke="#d7ddd8"/>
+  <text x="94" y="419" font-family="Arial, sans-serif" font-size="15" fill="#8a938e">Nominal</text>
+  <rect x="80" y="444" width="260" height="42" rx="5" fill="#fbfbf8" stroke="#d7ddd8"/>
+  <text x="94" y="471" font-family="Arial, sans-serif" font-size="15" fill="#8a938e">Kategori, contoh: Makan, Stok</text>
+  <rect x="80" y="496" width="260" height="42" rx="5" fill="#fbfbf8" stroke="#d7ddd8"/>
+  <text x="94" y="523" font-family="Arial, sans-serif" font-size="15" fill="#8a938e">Catatan singkat</text>
+  <rect x="80" y="552" width="260" height="48" rx="6" fill="#1f7a5a"/>
+  <text x="210" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Simpan</text>
+
+  <rect x="62" y="592" width="296" height="48" rx="6" fill="#1f7a5a"/>
+  <text x="210" y="622" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Sinkron ke Google Drive</text>
+
+  <text x="62" y="678" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#19231f">Riwayat</text>
+  <rect x="62" y="698" width="296" height="86" rx="8" fill="#ffffff"/>
+  <text x="80" y="730" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#a43e30">- Rp150.000,00 | Stok</text>
+  <text x="80" y="756" font-family="Arial, sans-serif" font-size="13" fill="#5c6560">26 Jun 2026, 16:20</text>
+  <text x="80" y="776" font-family="Arial, sans-serif" font-size="13" fill="#5c6560">Beli bahan usaha</text>
+  <rect x="62" y="794" width="296" height="20" fill="#f7f7f2"/>
+</svg>
