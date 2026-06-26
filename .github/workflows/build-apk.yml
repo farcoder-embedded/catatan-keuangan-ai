@@ -34,7 +34,13 @@ jobs:
         run: gradle assembleDebug
 
       - name: Show debug certificate SHA-1
-        run: keytool -list -v -keystore "$HOME/.android/debug.keystore" -storepass android -alias androiddebugkey -keypass android | grep SHA1
+        continue-on-error: true
+        run: |
+          if [ -f "$HOME/.android/debug.keystore" ]; then
+            keytool -list -v -keystore "$HOME/.android/debug.keystore" -storepass android -alias androiddebugkey -keypass android | grep -E "SHA1|SHA-1" || true
+          else
+            echo "Debug keystore was not found. APK upload will continue."
+          fi
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
