@@ -6,13 +6,16 @@ Aplikasi Android sederhana untuk mencatat pemasukan dan pengeluaran pribadi atau
 
 ## Fitur
 
+- Dashboard saldo, pemasukan, pengeluaran, dan ringkasan bulan berjalan
 - Tambah pemasukan dan pengeluaran
-- Kategori dan catatan singkat
-- Ringkasan saldo, pemasukan, dan pengeluaran
-- Riwayat transaksi
-- Hapus transaksi
+- Kategori, akun/dompet, metode pembayaran, dan catatan singkat
+- Riwayat transaksi dengan pencarian dan filter pemasukan/pengeluaran
+- Laporan bulanan dengan pengeluaran per kategori
+- Budget bulanan per kategori dengan progress pemakaian
+- Hapus transaksi dan hapus budget
 - Sinkronisasi Google Drive untuk akses dari beberapa perangkat dengan akun Google yang sama
 - Konflik dasar antar-perangkat ditangani dengan `updatedAt`; versi terbaru per transaksi akan menang
+- Icon aplikasi baru bernuansa keuangan
 
 ## Cara Menjalankan
 
