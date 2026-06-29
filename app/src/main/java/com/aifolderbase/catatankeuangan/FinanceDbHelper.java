@@ -217,7 +217,7 @@ public class FinanceDbHelper extends SQLiteOpenHelper {
         for (MoneyRecord record : getAllRecords()) {
             records.put(record.toJson());
         }
-        root.put("schemaVersion", 1);
+        root.put("schemaVersion", 2);
         root.put("updatedAt", System.currentTimeMillis());
         root.put("records", records);
         JSONArray budgets = new JSONArray();
