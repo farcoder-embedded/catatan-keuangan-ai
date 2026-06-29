@@ -12,6 +12,8 @@ public class MoneyRecord {
     public String id;
     public String type;
     public String category;
+    public String account;
+    public String paymentMethod;
     public String note;
     public double amount;
     public long occurredAt;
@@ -22,6 +24,8 @@ public class MoneyRecord {
         id = UUID.randomUUID().toString();
         type = TYPE_EXPENSE;
         category = "";
+        account = "Kas";
+        paymentMethod = "Tunai";
         note = "";
         amount = 0;
         occurredAt = System.currentTimeMillis();
@@ -34,6 +38,8 @@ public class MoneyRecord {
         object.put("id", id);
         object.put("type", type);
         object.put("category", category);
+        object.put("account", account);
+        object.put("paymentMethod", paymentMethod);
         object.put("note", note);
         object.put("amount", amount);
         object.put("occurredAt", occurredAt);
@@ -47,6 +53,8 @@ public class MoneyRecord {
         record.id = object.optString("id", record.id);
         record.type = object.optString("type", TYPE_EXPENSE);
         record.category = object.optString("category", "");
+        record.account = object.optString("account", "Kas");
+        record.paymentMethod = object.optString("paymentMethod", "Tunai");
         record.note = object.optString("note", "");
         record.amount = object.optDouble("amount", 0);
         record.occurredAt = object.optLong("occurredAt", System.currentTimeMillis());
